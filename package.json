@@ -1,0 +1,10 @@
+{
+  "author": "Patrick Millais",
+  "name": "SpotifyDiscoverArchiver",
+  "description": "A basic script which you can run weekly to save your Spotify Discover Weekly playlists",
+  "version": "0.0.1",
+  "dependencies": {
+    "request": "~2.79.0",
+    "request-promise": "~4.1.1"
+  }
+}
