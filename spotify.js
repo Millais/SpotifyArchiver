@@ -42,7 +42,7 @@ rp(auth)
 
 		// Get all songs from the Web API Endpoint
 		req = {
-			url: BASE_URL + 'spotifydiscover/playlists/' + discoverId + '/tracks',
+			url: BASE_URL + 'spotify/playlists/' + discoverId + '/tracks',
 			headers: { 'Authorization': 'Bearer ' + response.access_token},
 		}
 
