@@ -4,7 +4,7 @@ This is a simple Node.js program to automatically archive Spotify's Discover Wee
 
 I'm currently running it with a cron job to save all of Spotify's recommendations as they come out each week. It makes use of the [request-promise](https://github.com/request/request-promise) library to make an asynchronous language synchronous (and to reduce nested callbacks).
 
-##Usage
+## Usage
 
 To backup your Discover Weekly playlist, adjust the variables at the top of the `spotify.js` file.
 
